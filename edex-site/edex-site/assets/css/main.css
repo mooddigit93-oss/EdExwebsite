@@ -228,6 +228,8 @@ html[data-transitioning="first"] .curtain{background:var(--navy-deep)}
 .page-hero--light{background:var(--gray);color:var(--ink);padding-top:calc(var(--hh) + var(--sp-m))}
 .page-hero--light .lede{color:var(--muted)}
 .page-hero--light .page-hero__star{opacity:.14;color:var(--gold-deep)}
+.page-hero--light .page-hero__img{opacity:.10}
+.page-hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.28;z-index:0}
 .page-hero__meta{display:flex;flex-wrap:wrap;align-items:center;gap:.9rem;margin-bottom:var(--sp-xs);font-size:.875rem;font-weight:500}
 .pole-tag{font-size:.8125rem;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--navy)}
 
